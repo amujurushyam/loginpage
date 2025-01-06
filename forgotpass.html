@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forget Password Form</title>
+    <style>
+      body {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Forget Password Form</h2>
+    <form action="webpage.html" method="post">
+      <label for="newpword">Enter New Password:</label>
+      <input
+        type="password"
+        id="newpword"
+        name="cpword"
+        placeholder="Use atleast 8 Char"
+      /><br /><br />
+      <label for="Cnewpword">Confirm New Password:</label>
+      <input
+        type="password"
+        id="Cnewpword"
+        name="ncpword"
+        placeholder="Use atleast 8 Char"
+        autocomplete="new-password"
+        required
+      /><br /><br />
+      <input type="submit" value="Change Password" /><br /><br />
+      <a href="login.html">Back to Home </a>
+    </form>
+  </body>
+</html>
